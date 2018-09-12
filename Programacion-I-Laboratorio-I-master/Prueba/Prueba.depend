@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1536688637 source:/home/flor/Escritorio/Prueba/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	<string.h>
+
+1536688808 source:/home/flor/Escritorio/Prueba/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1536688733 /home/flor/Escritorio/Prueba/utn.h
+

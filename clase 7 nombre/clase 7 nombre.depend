@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1536688940 source:/home/alumno/Descargas/Programacion-I-Laboratorio-I-master/Prueba/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1536714791 source:/home/alumno/Descargas/clase 7 nombre/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn2.h"
+	<string.h>
+
+1536711515 /home/alumno/Descargas/clase 7 nombre/utn2.h
+
+1536711539 source:/home/alumno/Descargas/clase 7 nombre/utn2.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+

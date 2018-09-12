@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1536688940 source:/home/alumno/Descargas/Programacion-I-Laboratorio-I-master/Prueba/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1536710368 source:/home/alumno/Descargas/clase 07/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
