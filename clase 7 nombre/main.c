@@ -11,50 +11,36 @@ int main()
     int i=0;
   //  printf("Ingrese un nombre \n");
    // fgets(nombre,20,stdin);
-    utn_ingresarNombre("Ingrese nombre",&nombre[i],LIMITENOMBRE);
-    printf("%s",nombre);
+    utn_ingresarNombre("Ingrese nombre\n",&nombre[i],LIMITENOMBRE);
+    utn_validarNombre(&nombre[i]);
 
-    for(i=0;i<LIMITENOMBRE;i++)
-    {
-
-        if( (nombre[i] < 'a' || nombre[i] > 'z') && (nombre[i] < 'A' || nombre[i] > 'Z') && (nombre[i] != '\0') )
-           {
-                printf("Error, no es un nombre valido\n");
-                utn_ingresarNombre("Reingrese nombre",&nombre[i],LIMITENOMBRE);
-
-           }
-        else{
-            printf("Nombre valido");
-        }
-
-    }
-   /* for(i=0;i<LIMITENOMBRE;i++)
-    {
-        if((nombre[i] != ' ') && (nombre[i] < 'a' || nombre[i] > 'z') && (nombre[i] < 'A' || nombre[i] > 'Z'))
-           {
-                printf("Error, no es un nombre valido");
-                return -1;
-           }
-    }*/
-    return 0;
+ return 0;
 }
+    /*while(nombre[i]!= '\0')
+        {
+            if( (nombre[i] > 'a' && nombre[i] < 'z') && (nombre[i] > 'A' && nombre[i] < 'Z') )
+            {
+                return 0;
+            }
+        i++;
+        }
+    return 1;*/
 char utn_ingresarNombre(char mensaje[],char string[],int limite)
 {
     printf("%s",mensaje);
-    fgets(string,20,stdin);
+    fgets(string,limite,stdin);
     return string[limite];
 }
-/*int utn_validarNombre(char string[])
+int utn_validarNombre(char string[])
 {
     int i;
-    for(i=0;i<LIMITENOMBRE;i++)
-    {
-        if( (string[i] < 'a' || string[i] > 'z') && (string[i] < 'A' || string[i] > 'Z'))
-           {
-                printf("Error, no es un nombre valido");
-                return -1;
-           }
-    }
-    return 0;
-
-}*/
+    while(string[i]!= '\0')
+        {
+            if( (string[i] > 'a' && string[i] < 'z') && (string[i] > 'A' && string[i] < 'Z') )
+            {
+                return 0;
+            }
+        i++;
+        }
+    return 1;
+}
