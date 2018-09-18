@@ -82,3 +82,19 @@
 	<ctype.h>
 	"utn.h"
 
+1537294677 source:/home/flor/Escritorio/Clase08_init/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1537294700 /home/flor/Escritorio/Clase08_init/utn.h
+
+1537294692 source:/home/flor/Escritorio/Clase08_init/utn.c
+	<stdio_ext.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
