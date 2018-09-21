@@ -73,19 +73,22 @@ int main()
     return retorno;
 }
 
-int producto_mostrarArrayProductos(Producto arrayProductos[],int cantidadDeElementos,int valor)
+int producto_lugarlibre(Producto arrayProductos[],int len,putnero a dnde voy a dejar el indice int * indice)
 {
     int retorno = -1;
     int i;
-    if(arrayProductos !=NULL && cantidadDeElementos >0 );
+    if(arrayProductos !=NULL && len >0 );
     {for(i=0;i < cantidadDeElementos; i++)
     {
-        if(!arrayProductos[i].isEmpty)
+        if(!arrayProductos[i].isEmpty==0)
         {
-            printf("Nombre\n%s - D : %s - P %f",arrayProductos[i].nombre,arrayProductos[i].descripcion,arrayProductos[i].precio);
+            *indice = i;
+            retorno =0;
+            break;
+            r
         } //= valor;
     }
-    retorno =0;
+    retorno = 2;
     }
     return retorno;
 }
